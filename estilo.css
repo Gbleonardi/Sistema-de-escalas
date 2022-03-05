@@ -1,18 +1,30 @@
+body {
+    background-image: url('./assets/5e3e8e0ac935ad001e25fd3f.jpg');
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
 .Login__gestao {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     width: 200px;
-    background-color:bisque;
+    background-color:#DCDCDCbb;
     padding: 50px;
     transform: translate(-50%, -50%);
-    border-radius: 40px;
-    background-color: #B0C4DE;
+    border-radius: 30px;
+    box-shadow: 8px 5px 5px #3f3f3f;
+    
 }
 
+
 .gestao__de__escalas {
-    padding: 10px;
+    padding: 10%;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -21,4 +33,40 @@ button {
     width: 30%;
     text-align: center;
     
+}
+
+.submit {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 60%;
+    float: left;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.email {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 90%;
+    float: left;
+    cursor: pointer;
+}
+
+
+.senha {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 90%;
+    float: left;
+    cursor: pointer;
 }
