@@ -3,7 +3,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #525252 !important
+    background-color: #525252;
 }
 
 .nav-link .fa {
@@ -13,3 +13,8 @@ body {
 .nav-link:hover .fa {
     transform: rotate(360deg)
 }
+
+.fs-4 {
+    font-size: 20px;
+}
+
