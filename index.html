@@ -7,19 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestão de escala</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
     <div class="Login__gestao">
         <form method="GET" action="">
-        <h1 class="gestao__de__escalas">LOGIN</h1>
-        <input class="email" type="text" placeholder="Email@example.com"><br><br>
-        <input class="senha" type="text" placeholder="Senha"><br><br>
-        <input class="submit" type="submit" value="Entrar" href="arealogada.html"></a>
-        
-    </form>
+            <h1 class="gestao__de__escalas">LOGIN</h1>
+            <input class="usuario" type="text" placeholder="Nome de Usuário"><br><br>
+            <input class="senha" type="password" id="senha" placeholder="Senha"> <i class="fa fa-eye" aria-hidden="true"></i>
+            <br><br>
+                <input href="arealogada.html" class="submit" type="button" value="Entrar">
+                <input href="areacriarconta.html" class="criar_conta" type="button" value="Criar conta"> <br>
+
+        </form>
     </div>
+
+    <script src="js/senha.js"></script>
+
 </body>
 
-</html> 
+</html>
