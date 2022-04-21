@@ -18,6 +18,9 @@ let confirmsenha = document.querySelector("#confirmsenha")
 let labelConfirmsenha = document.querySelector("#labelConfirmsenha")
 let validconfirmsenha = false
 
+let msgError = document.querySelector("#msgError")
+let msgSuccess = document.querySelector("#msgSuccess")
+
 
 // Função validar campos
 nome.addEventListener('keyup', () => {
@@ -82,13 +85,41 @@ confirmsenha.addEventListener('keyup', () => {
 
 
 
-// Funcções
+// Função botão cadastrar
+// Função localstorage (cadastrar banco de dados local)
 function cadastrar() {
     if (validnome && validusuario && validsenha && validconfirmsenha) {
-        alert("jesus é rei")
+        let listaUser = JSON.parse(localStorage.getItem("listaUser") || "[]")
+
+        listaUser.push(
+            {
+                nomeCad: nome.value,
+                userCad: usuario.value,
+                senhaCad: senha.value
+            }
+        )
+
+
+        localStorage.setItem("listaUser", JSON.stringify(listaUser))
+
+
+        msgSuccess.setAttribute("style", "display: block")
+        msgSuccess.innerHTML = "<strong>Cadastrando Usuário...</strong>"
+        msgError.setAttribute("style", "display:none")
+        msgError.innerHTML = ""
     } else {
-        alert("vazio")
-        }
+        msgError.setAttribute("style", "display:block")
+        msgError.innerHTML = "<strong>Preencha todos os campos corretamente antes de cadastrar!</strong>"
+        msgSuccess.innerHTML = ""
+        msgSuccess.setAttribute("style", "display: none")
+
+        setTimeout(() => {
+
+            window.location.href = "index.html"  
+        }, 3000)
+        
+
+    }
 
 }
 
