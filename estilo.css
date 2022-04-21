@@ -49,7 +49,7 @@ button {
     outline: none;
     color: black;
     cursor: pointer;
-    font-size: large;
+    font-size: medium;
 
 
 }
@@ -102,7 +102,7 @@ button {
 
 .criar_conta {
     position: relative;
-    left:100px;
+    left:98px;
     margin-top: 10px;
     padding: 0 5px;
     background-color: transparent;
@@ -111,7 +111,7 @@ button {
     outline: none;
     color: black;
     cursor: pointer;
-    font-size: large;
+    font-size: medium;
     
 
 }
@@ -126,8 +126,11 @@ button {
 
 
 .fa-eye {
-    position: absolute;
-    right: 60px;
+    position: relative;
+    top:-18px;
+    left: 90%;
     cursor: pointer;
+    
+    
     
 }

@@ -15,13 +15,20 @@
     <div class="Login__gestao">
         <form method="GET" action="">
             <h1 class="gestao__de__escalas">LOGIN</h1>
-            <input class="usuario" type="text" placeholder="Nome de Usuário"><br><br>
-            <input class="senha" type="password" id="senha" placeholder="Senha"> <i class="fa fa-eye" aria-hidden="true"></i>
-            <br><br>
-                <input href="arealogada.html" class="submit" type="button" value="Entrar">
-                <input href="areacriarconta.html" class="criar_conta" type="button" value="Criar conta"> <br>
-
+            <input class="usuario" type="text" placeholder="Nome de Usuário" required><br><br>
+            <input class="senha" type="password" id="senha" placeholder="Senha" required> <i class="fa fa-eye"
+                aria-hidden="true"></i>
         </form>
+            <br><br>
+
+            <div>
+                <a href="arealogada.html">
+                    <input class="submit" type="button" value="Entrar"></a>
+                    
+                    <a href="areacriarconta.html">
+                        <input class="criar_conta" type="button" value="Cadastre-se"> <br>
+                    </a>
+            </div>
     </div>
 
     <script src="js/senha.js"></script>

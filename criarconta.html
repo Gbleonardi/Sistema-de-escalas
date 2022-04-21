@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="css/criarconta.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+</head>
+
+<body>
+
+    <div class="Login__gestao">
+        <form method="GET" action="">
+            <h1 class="gestao__de__escalas">Cadastrar</h1>
+            <div>
+                <input class="nome" type="text" id="nome" placeholder="Nome" required>  <br><br>
+                <label id="labelNome" for="nome"></label>
+            </div>
+
+            <div>
+                <input class="usuario" type="text" id="usuario" placeholder="Usuário" required> <br><br>
+                <label id="labelUsuario" for="usuario"></label>
+            </div>
+
+            <div>
+                <input class="senha" type="password" id="senha" placeholder="Senha" required> <i id="verSenha"
+                    class="fa fa-eye" aria-hidden="true"></i> <br><br>
+                <label id="labelSenha" for="senha"></label>
+            </div>
+
+            <div>
+                <input class="senha" type="password" id="confirmsenha" placeholder="Confirmar senha" required> <i
+                    id="verConfirmsenha" class="fa fa-eye" aria-hidden="true"></i><br><br>
+                <label id="labelConfirmsenha" for="confirmsenha"></label>
+            </div>
+
+            <div>
+                <input onclick="cadastrar()" class="cadastrar" type="button" value="Cadastrar"> <br>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="js/criarconta.js"></script>
+
+</body>
+
+</html>

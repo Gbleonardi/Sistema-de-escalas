@@ -3,10 +3,10 @@ body {
     /* background-color: #b6b2ad; */
     background-color: #ede4df;
     padding: 20%;
-    background-size: 60% 122%;
+    background-size: 60% 123%;
     background-repeat: no-repeat;
     overflow: hidden;
-    
+
 
 }
 
@@ -67,17 +67,17 @@ body {
     padding: 0 5px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     outline: none;
     color: black;
     cursor: pointer;
     font-size: large;
+    
 }
 
-/* .usuario:hover {
-    background-color: #21292a;
-    color: white;
-    border-radius: 5px;
+/* .usuario:focus {
+    border-bottom:2px solid ;
+    transition: all .3s ease-out;
 } */
 
 
@@ -86,7 +86,7 @@ body {
     padding: 0 5px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     outline: none;
     color: black;
     cursor: pointer;
@@ -101,10 +101,10 @@ body {
 
 } */
 
-.cadastrar{
+.cadastrar {
     position: relative;
-    /* left: */
-    margin-top: 10px;
+    left: 79px;
+    margin-top: 9px;
     padding: 0 5px;
     background-color: transparent;
     border: none;
@@ -112,17 +112,19 @@ body {
     outline: none;
     color: black;
     cursor: pointer;
-    font-size: large;
-    
+    font-size: larger;
+
 
 }
+
+
+
 
 .cadastrar:hover {
     background-color: #21292a;
     color: white;
     border-radius: 5px
-
-}    
+}
 
 
 
@@ -131,7 +133,7 @@ body {
     padding: 0 5px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     outline: none;
     color: black;
     cursor: pointer;
@@ -146,8 +148,8 @@ body {
 /* } */
 
 .fa-eye {
-    position: absolute;
-    right: 60px;
-    cursor: pointer;
+    position: relative;
+    top: -18px;
+    left: 90%;
     
 }
