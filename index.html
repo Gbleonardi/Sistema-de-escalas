@@ -15,23 +15,34 @@
     <div class="Login__gestao">
         <form method="GET" action="">
             <h1 class="gestao__de__escalas">LOGIN</h1>
-            <input class="usuario" type="text" placeholder="Nome de Usuário" required><br><br>
-            <input class="senha" type="password" id="senha" placeholder="Senha" required> <i class="fa fa-eye"
-                aria-hidden="true"></i>
-        </form>
-            <br><br>
+            <div id="msgError"></div>
 
             <div>
-                <a href="arealogada.html">
-                    <input class="submit" type="button" value="Entrar"></a>
-                    
-                    <a href="areacriarconta.html">
-                        <input class="criar_conta" type="button" value="Cadastre-se"> <br>
-                    </a>
+                <input class="usuario" type="text" id="usuario" placeholder="Nome de Usuário" required><br><br>
+                <label id="userLabel" for="Usuário" required></label>
             </div>
+
+            <div>
+                <input class="senha" type="password" id="senha" placeholder="Senha" required> <i class="fa fa-eye"
+                    aria-hidden="true"></i>
+                <label id="senhaLabel" for="Senha"></label>
+            </div>
+
+
+        </form>
+        <br><br>
+
+        <div>
+            
+                <input onclick="entrar()" class="submit" type="button" value="Entrar"></a>
+
+            <a href="criarconta.html">
+                <input class="criar_conta" type="button" value="Cadastre-se"> <br>
+            </a>
+        </div>
     </div>
 
-    <script src="js/senha.js"></script>
+    <script src="js/login.js"></script>
 
 </body>
 

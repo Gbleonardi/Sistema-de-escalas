@@ -66,7 +66,7 @@ button {
     padding: 0 5px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     outline: none;
     color: black;
     cursor: pointer;
@@ -85,7 +85,7 @@ button {
     padding: 0 5px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     outline: none;
     color: black;
     cursor: pointer;
@@ -102,7 +102,7 @@ button {
 
 .criar_conta {
     position: relative;
-    left:98px;
+    left:93px;
     margin-top: 10px;
     padding: 0 5px;
     background-color: transparent;
@@ -131,6 +131,19 @@ button {
     left: 90%;
     cursor: pointer;
     
-    
-    
+
 }
+
+
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+
+
+}
+
