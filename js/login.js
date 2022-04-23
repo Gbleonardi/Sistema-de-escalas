@@ -60,7 +60,7 @@ function entrar(){
         senhaLabel.setAttribute("style", "color: red")
         senha.setAttribute("style", "border-color: red")
         msgError.setAttribute("style", "display:block")
-        msgError.innerHTML = "Usuário ou senha incorreto"
+        msgError.innerHTML = "Usuário ou senha incorretos"
         usuario.focus()
         
 

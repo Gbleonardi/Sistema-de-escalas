@@ -2,7 +2,7 @@
 let userLogado = JSON.parse(localStorage.getItem("userLogado"))
 let logado = document.querySelector("#Logado")
 
-logado.innerHTML = `Olá  ${userLogado.nome}`
+logado.innerHTML = `Bem vindo (a)  ${userLogado.nome}`
 
 
 // Em caso de tentatifa de login diretamente pelo link, exibe o alerta

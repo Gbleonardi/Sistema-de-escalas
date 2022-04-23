@@ -157,7 +157,7 @@ body {
 #msgError {
     text-align: center;
     color: #ff0000;
-    background-color: #ffbbbb;
+    background-color: #cfccc7;
     padding: 10px;
     border-radius: 4px;
     display: none;

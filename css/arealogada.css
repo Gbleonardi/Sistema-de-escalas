@@ -1,3 +1,27 @@
 body {
     background-color: #bab7b2;
 }
+
+
+.nav-link:hover {
+    background-color: #525252;
+}
+
+.nav-link .fa {
+    transition: all 1s;
+    
+
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg);
+    
+
+}
+
+.fs-4 {
+    font-size: 20px;
+    position: fixed;
+
+}
+
